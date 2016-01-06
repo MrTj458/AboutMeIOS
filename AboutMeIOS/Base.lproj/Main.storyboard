@@ -68,6 +68,9 @@
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="184" y="353" width="46" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="changeToAboutMe:" destination="4lg-BW-wX8" eventType="touchUpInside" id="xYb-rQ-Sf2"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.63174786532147453" green="0.98963248543000071" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -85,7 +88,7 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="toMe" id="cPk-46-hNe"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="toAboutMe" id="cPk-46-hNe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aah-ID-PLB" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -111,6 +114,7 @@
                                     <rect key="frame" x="184" y="353" width="46" height="30"/>
                                 </variation>
                                 <connections>
+                                    <action selector="changeToVideoGames:" destination="knw-J4-Kzh" eventType="touchUpInside" id="fPn-QV-Kh7"/>
                                     <segue destination="bua-WE-IbH" kind="presentation" identifier="toVideoGames" id="D7B-MW-nm1"/>
                                 </connections>
                             </button>
@@ -152,6 +156,9 @@
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="184" y="353" width="46" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="changeToComputers:" destination="bua-WE-IbH" eventType="touchUpInside" id="vJW-uJ-xmY"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.70151691315707598" blue="0.327279201273038" alpha="1" colorSpace="calibratedRGB"/>

@@ -22,4 +22,9 @@ class VideoGameViewController : UIViewController
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func changeToComputers(sender: UIButton)
+    {
+        performSegueWithIdentifier("toComputers", sender: sender)
+    }
 }

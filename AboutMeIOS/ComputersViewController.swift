@@ -22,4 +22,9 @@ class ComputersViewController : UIViewController
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func changeToAboutMe(sender: AnyObject)
+    {
+        performSegueWithIdentifier("toAboutMe", sender: sender)
+    }
 }
