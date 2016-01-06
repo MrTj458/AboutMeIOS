@@ -17,26 +17,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gju-KG-6Df">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yyw-VE-FXx">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="184" y="353" width="46" height="30"/>
+                                <state key="normal" title="Get Started"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="313" y="686" width="81" height="30"/>
                                 </variation>
                                 <connections>
-                                    <action selector="changeToFrom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e4s-98-3wn"/>
+                                    <action selector="changeToFrom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0pP-BJ-17f"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="Gju-KG-6Df"/>
+                                <exclude reference="Yyw-VE-FXx"/>
                             </mask>
                         </variation>
-                        <variation key="heightClass=regular-widthClass=regular">
+                        <variation key="heightClass=regular">
                             <mask key="subviews">
-                                <include reference="Gju-KG-6Df"/>
+                                <include reference="Yyw-VE-FXx"/>
                             </mask>
                         </variation>
                     </view>
@@ -48,7 +48,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="403.5" y="105"/>
+            <point key="canvasLocation" x="-106" y="105"/>
         </scene>
         <!--Computers-->
         <scene sceneID="SrW-S1-dhW">
@@ -62,26 +62,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jCB-ag-hze">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vzx-fC-jVV">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="184" y="353" width="46" height="30"/>
+                                <state key="normal" title="Back to Home"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="296" y="686" width="98" height="30"/>
                                 </variation>
                                 <connections>
-                                    <action selector="changeToAboutMe:" destination="4lg-BW-wX8" eventType="touchUpInside" id="xYb-rQ-Sf2"/>
+                                    <action selector="changeToAboutMe:" destination="4lg-BW-wX8" eventType="touchUpInside" id="sDS-er-TVO"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.63174786532147453" green="0.98963248543000071" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="jCB-ag-hze"/>
+                                <exclude reference="vzx-fC-jVV"/>
                             </mask>
                         </variation>
-                        <variation key="heightClass=regular-widthClass=regular">
+                        <variation key="heightClass=regular">
                             <mask key="subviews">
-                                <include reference="jCB-ag-hze"/>
+                                <include reference="vzx-fC-jVV"/>
                             </mask>
                         </variation>
                     </view>
@@ -93,7 +93,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aah-ID-PLB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="795" y="774"/>
+            <point key="canvasLocation" x="569" y="766.5"/>
         </scene>
         <!--Where I'm From-->
         <scene sceneID="G9Z-wS-2MI">
@@ -107,36 +107,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U2J-C6-U61">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tIT-CR-CFO">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="184" y="353" width="46" height="30"/>
+                                <state key="normal" title="Next Page"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="323" y="686" width="71" height="30"/>
                                 </variation>
                                 <connections>
-                                    <action selector="changeToVideoGames:" destination="knw-J4-Kzh" eventType="touchUpInside" id="fPn-QV-Kh7"/>
-                                    <segue destination="bua-WE-IbH" kind="presentation" identifier="toVideoGames" id="D7B-MW-nm1"/>
+                                    <action selector="changeToVideoGames:" destination="knw-J4-Kzh" eventType="touchUpInside" id="YRx-Hf-M9y"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.24146899112896159" green="1" blue="0.23927664543389615" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="U2J-C6-U61"/>
+                                <exclude reference="tIT-CR-CFO"/>
                             </mask>
                         </variation>
-                        <variation key="heightClass=regular-widthClass=regular">
+                        <variation key="heightClass=regular">
                             <mask key="subviews">
-                                <include reference="U2J-C6-U61"/>
+                                <include reference="tIT-CR-CFO"/>
                             </mask>
                         </variation>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="bua-WE-IbH" kind="presentation" identifier="toVideoGames" id="7I6-re-JMv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3jZ-Gs-Wre" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="795" y="105"/>
+            <point key="canvasLocation" x="569" y="105"/>
         </scene>
         <!--Video Games-->
         <scene sceneID="JAp-1D-jjp">
@@ -150,26 +152,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6H8-JN-Q3t">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ly0-zG-VkS">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="184" y="353" width="46" height="30"/>
+                                <state key="normal" title="Next Button"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="310" y="686" width="84" height="30"/>
                                 </variation>
                                 <connections>
-                                    <action selector="changeToComputers:" destination="bua-WE-IbH" eventType="touchUpInside" id="vJW-uJ-xmY"/>
+                                    <action selector="changeToComputers:" destination="bua-WE-IbH" eventType="touchUpInside" id="HOE-Ut-FhC"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.70151691315707598" blue="0.327279201273038" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="6H8-JN-Q3t"/>
+                                <exclude reference="Ly0-zG-VkS"/>
                             </mask>
                         </variation>
-                        <variation key="heightClass=regular-widthClass=regular">
+                        <variation key="heightClass=regular">
                             <mask key="subviews">
-                                <include reference="6H8-JN-Q3t"/>
+                                <include reference="Ly0-zG-VkS"/>
                             </mask>
                         </variation>
                     </view>
@@ -181,7 +183,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xoN-tG-UIS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1174.5" y="105"/>
+            <point key="canvasLocation" x="1174" y="105"/>
         </scene>
     </scenes>
 </document>
