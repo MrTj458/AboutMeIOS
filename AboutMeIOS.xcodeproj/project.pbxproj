@@ -13,6 +13,9 @@
 		3A4C1AF71C3D999E0092C574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4C1AF61C3D999E0092C574 /* Assets.xcassets */; };
 		3A4C1AFA1C3D999E0092C574 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A4C1AF81C3D999E0092C574 /* LaunchScreen.storyboard */; };
 		3A4C1B051C3D999E0092C574 /* AboutMeIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4C1B041C3D999E0092C574 /* AboutMeIOSTests.swift */; };
+		3A4C1B121C3D9E960092C574 /* FromViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4C1B111C3D9E960092C574 /* FromViewController.swift */; };
+		3A4C1B151C3D9EF00092C574 /* VideoGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4C1B141C3D9EF00092C574 /* VideoGameViewController.swift */; };
+		3A4C1B171C3D9F3E0092C574 /* ComputersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4C1B161C3D9F3E0092C574 /* ComputersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		3A4C1B001C3D999E0092C574 /* AboutMeIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AboutMeIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A4C1B041C3D999E0092C574 /* AboutMeIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeIOSTests.swift; sourceTree = "<group>"; };
 		3A4C1B061C3D999E0092C574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A4C1B111C3D9E960092C574 /* FromViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromViewController.swift; sourceTree = "<group>"; };
+		3A4C1B141C3D9EF00092C574 /* VideoGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoGameViewController.swift; sourceTree = "<group>"; };
+		3A4C1B161C3D9F3E0092C574 /* ComputersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComputersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,11 @@
 		3A4C1B0F1C3D9B400092C574 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				3A4C1AF11C3D999E0092C574 /* ViewController.swift */,
 				3A4C1AEF1C3D999E0092C574 /* AppDelegate.swift */,
+				3A4C1AF11C3D999E0092C574 /* ViewController.swift */,
+				3A4C1B111C3D9E960092C574 /* FromViewController.swift */,
+				3A4C1B141C3D9EF00092C574 /* VideoGameViewController.swift */,
+				3A4C1B161C3D9F3E0092C574 /* ComputersViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -213,8 +222,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A4C1B151C3D9EF00092C574 /* VideoGameViewController.swift in Sources */,
 				3A4C1AF21C3D999E0092C574 /* ViewController.swift in Sources */,
+				3A4C1B121C3D9E960092C574 /* FromViewController.swift in Sources */,
 				3A4C1AF01C3D999E0092C574 /* AppDelegate.swift in Sources */,
+				3A4C1B171C3D9F3E0092C574 /* ComputersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
