@@ -14,7 +14,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yyw-VE-FXx">
@@ -27,23 +27,42 @@
                                     <action selector="changeToFrom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0pP-BJ-17f"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you want to know more about me?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DEx-ZP-Uql">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.69198267394103774" blue="0.10118581379102298" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="20" width="374" height="21"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="big-smiley" translatesAutoresizingMaskIntoConstraints="NO" id="xdd-om-jDb">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="49" width="374" height="629"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="Yyw-VE-FXx"/>
+                                <exclude reference="DEx-ZP-Uql"/>
+                                <exclude reference="xdd-om-jDb"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
                             <mask key="subviews">
                                 <include reference="Yyw-VE-FXx"/>
+                                <include reference="DEx-ZP-Uql"/>
+                                <include reference="xdd-om-jDb"/>
                             </mask>
                         </variation>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <segue destination="knw-J4-Kzh" kind="presentation" identifier="toFrom" id="evo-CV-3vw"/>
+                        <segue destination="knw-J4-Kzh" kind="presentation" identifier="toFrom" modalTransitionStyle="partialCurl" id="evo-CV-3vw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -59,7 +78,7 @@
                         <viewControllerLayoutGuide type="bottom" id="p3B-Nb-csi"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="oa8-g3-Elq">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vzx-fC-jVV">
@@ -88,7 +107,7 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="toAboutMe" id="cPk-46-hNe"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="toAboutMe" modalTransitionStyle="partialCurl" id="cPk-46-hNe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aah-ID-PLB" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -104,7 +123,7 @@
                         <viewControllerLayoutGuide type="bottom" id="6Km-dk-GQp"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="LCo-d0-hp2">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tIT-CR-CFO">
@@ -133,7 +152,7 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <segue destination="bua-WE-IbH" kind="presentation" identifier="toVideoGames" id="7I6-re-JMv"/>
+                        <segue destination="bua-WE-IbH" kind="presentation" identifier="toVideoGames" modalTransitionStyle="partialCurl" id="7I6-re-JMv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3jZ-Gs-Wre" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -149,7 +168,7 @@
                         <viewControllerLayoutGuide type="bottom" id="VEP-Go-Oh8"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="nAL-8w-j9p">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ly0-zG-VkS">
@@ -178,7 +197,7 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <segue destination="4lg-BW-wX8" kind="presentation" identifier="toComputers" id="vev-Mo-qWT"/>
+                        <segue destination="4lg-BW-wX8" kind="presentation" identifier="toComputers" modalTransitionStyle="partialCurl" id="vev-Mo-qWT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xoN-tG-UIS" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -186,4 +205,7 @@
             <point key="canvasLocation" x="1174" y="105"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="big-smiley" width="800" height="800"/>
+    </resources>
 </document>
