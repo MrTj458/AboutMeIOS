@@ -23,6 +23,9 @@
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="184" y="353" width="46" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="changeToFrom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e4s-98-3wn"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
@@ -39,15 +42,18 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="knw-J4-Kzh" kind="presentation" identifier="toFrom" id="evo-CV-3vw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="790.5" y="162"/>
+            <point key="canvasLocation" x="403.5" y="105"/>
         </scene>
         <!--Computers-->
         <scene sceneID="SrW-S1-dhW">
             <objects>
-                <viewController title="Computers" id="4lg-BW-wX8" sceneMemberID="viewController">
+                <viewController title="Computers" id="4lg-BW-wX8" customClass="ComputersViewController" customModule="AboutMeIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="69B-NH-VjH"/>
                         <viewControllerLayoutGuide type="bottom" id="p3B-Nb-csi"/>
@@ -78,15 +84,18 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="toMe" id="cPk-46-hNe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aah-ID-PLB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="790.5" y="759"/>
+            <point key="canvasLocation" x="795" y="774"/>
         </scene>
         <!--Where I'm From-->
         <scene sceneID="G9Z-wS-2MI">
             <objects>
-                <viewController title="Where I'm From" id="knw-J4-Kzh" sceneMemberID="viewController">
+                <viewController title="Where I'm From" id="knw-J4-Kzh" customClass="FromViewController" customModule="AboutMeIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cqA-zO-CG7"/>
                         <viewControllerLayoutGuide type="bottom" id="6Km-dk-GQp"/>
@@ -101,6 +110,9 @@
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="184" y="353" width="46" height="30"/>
                                 </variation>
+                                <connections>
+                                    <segue destination="bua-WE-IbH" kind="presentation" identifier="toVideoGames" id="D7B-MW-nm1"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.24146899112896159" green="1" blue="0.23927664543389615" alpha="1" colorSpace="calibratedRGB"/>
@@ -120,12 +132,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3jZ-Gs-Wre" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1140" y="162"/>
+            <point key="canvasLocation" x="795" y="105"/>
         </scene>
         <!--Video Games-->
         <scene sceneID="JAp-1D-jjp">
             <objects>
-                <viewController title="Video Games" id="bua-WE-IbH" sceneMemberID="viewController">
+                <viewController title="Video Games" id="bua-WE-IbH" customClass="VideoGameViewController" customModule="AboutMeIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6jr-bX-lPG"/>
                         <viewControllerLayoutGuide type="bottom" id="VEP-Go-Oh8"/>
@@ -156,10 +168,13 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="4lg-BW-wX8" kind="presentation" identifier="toComputers" id="vev-Mo-qWT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xoN-tG-UIS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1140" y="759"/>
+            <point key="canvasLocation" x="1174.5" y="105"/>
         </scene>
     </scenes>
 </document>
