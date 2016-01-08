@@ -36,7 +36,7 @@
                                     <rect key="frame" x="20" y="20" width="374" height="21"/>
                                 </variation>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="big-smiley" translatesAutoresizingMaskIntoConstraints="NO" id="xdd-om-jDb">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="big_smiley" translatesAutoresizingMaskIntoConstraints="NO" id="xdd-om-jDb">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="20" y="49" width="374" height="629"/>
@@ -91,16 +91,36 @@
                                     <action selector="changeToAboutMe:" destination="4lg-BW-wX8" eventType="touchUpInside" id="sDS-er-TVO"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="computer_case" translatesAutoresizingMaskIntoConstraints="NO" id="9l8-Dl-9Hf">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="132" width="374" height="546"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E1h-qG-oj9">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <string key="text">I have built my own computer. Over the coarse of about 2 years I have been slowly building and upgrading my own pc. It has a GTX 980 and an overclocked i7. I have also helped Thomas build his pc.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="20" width="374" height="104"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.63174786532147453" green="0.98963248543000071" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="vzx-fC-jVV"/>
+                                <exclude reference="9l8-Dl-9Hf"/>
+                                <exclude reference="E1h-qG-oj9"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
                             <mask key="subviews">
                                 <include reference="vzx-fC-jVV"/>
+                                <include reference="9l8-Dl-9Hf"/>
+                                <include reference="E1h-qG-oj9"/>
                             </mask>
                         </variation>
                     </view>
@@ -136,16 +156,36 @@
                                     <action selector="changeToVideoGames:" destination="knw-J4-Kzh" eventType="touchUpInside" id="YRx-Hf-M9y"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="290-S6-2X6">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <string key="text">I was born in Petaluma California. I lived there for about 7 years before moving to Utah.  Most of my family is still in California.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="20" width="374" height="66"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="california_picture" translatesAutoresizingMaskIntoConstraints="NO" id="uuS-gA-D8d">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="94" width="374" height="584"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.24146899112896159" green="1" blue="0.23927664543389615" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="tIT-CR-CFO"/>
+                                <exclude reference="290-S6-2X6"/>
+                                <exclude reference="uuS-gA-D8d"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
                             <mask key="subviews">
                                 <include reference="tIT-CR-CFO"/>
+                                <include reference="290-S6-2X6"/>
+                                <include reference="uuS-gA-D8d"/>
                             </mask>
                         </variation>
                     </view>
@@ -181,16 +221,36 @@
                                     <action selector="changeToComputers:" destination="bua-WE-IbH" eventType="touchUpInside" id="HOE-Ut-FhC"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E00-K0-mEn">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <string key="text">I like to play video games. I have both an Xbox 360 and a gaming PC. I tend to play survival games like Minecraft and Rust, but have recently gotten into games like Counterstrike as well.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="20" width="374" height="83"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="minecraft_picture" translatesAutoresizingMaskIntoConstraints="NO" id="1sO-FU-dnt">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="111" width="374" height="567"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.70151691315707598" blue="0.327279201273038" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="Ly0-zG-VkS"/>
+                                <exclude reference="E00-K0-mEn"/>
+                                <exclude reference="1sO-FU-dnt"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
                             <mask key="subviews">
                                 <include reference="Ly0-zG-VkS"/>
+                                <include reference="E00-K0-mEn"/>
+                                <include reference="1sO-FU-dnt"/>
                             </mask>
                         </variation>
                     </view>
@@ -206,6 +266,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="big-smiley" width="800" height="800"/>
+        <image name="big_smiley" width="800" height="800"/>
+        <image name="california_picture" width="2289" height="1527"/>
+        <image name="computer_case" width="1024" height="1024"/>
+        <image name="minecraft_picture" width="600" height="600"/>
     </resources>
 </document>
