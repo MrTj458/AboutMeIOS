@@ -42,6 +42,16 @@
                                     <rect key="frame" x="20" y="49" width="374" height="629"/>
                                 </variation>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KI2-KA-MwI">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Fun :D"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="686" width="46" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="changeSmiley:" destination="BYZ-38-t0r" eventType="touchUpInside" id="60P-c5-CYb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
@@ -49,6 +59,7 @@
                                 <exclude reference="Yyw-VE-FXx"/>
                                 <exclude reference="DEx-ZP-Uql"/>
                                 <exclude reference="xdd-om-jDb"/>
+                                <exclude reference="KI2-KA-MwI"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
@@ -56,12 +67,14 @@
                                 <include reference="Yyw-VE-FXx"/>
                                 <include reference="DEx-ZP-Uql"/>
                                 <include reference="xdd-om-jDb"/>
+                                <include reference="KI2-KA-MwI"/>
                             </mask>
                         </variation>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
+                        <outlet property="SmileyFace" destination="xdd-om-jDb" id="Se5-7R-L14"/>
                         <segue destination="knw-J4-Kzh" kind="presentation" identifier="toFrom" modalTransitionStyle="partialCurl" id="evo-CV-3vw"/>
                     </connections>
                 </viewController>

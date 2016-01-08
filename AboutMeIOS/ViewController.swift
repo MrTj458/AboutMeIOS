@@ -9,8 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController
-    {
+{
 
+    @IBOutlet weak var smileyFace: UIImageView!
+    var smileyVisible : Bool = true
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -28,5 +31,42 @@ class ViewController: UIViewController
         performSegueWithIdentifier("toFrom", sender: sender)
     }
 
+    @IBAction func changeSmiley(sender: UIButton)
+    {
+        if(smileyFace.alpha == 1.0 && smileyVisible == true)
+        {
+            smileyFace.alpha = 0.75
+        }
+        else if(smileyFace.alpha == 0.75 && smileyVisible == true)
+        {
+            smileyFace.alpha = 0.5
+        }
+        else if(smileyFace.alpha == 0.5 && smileyVisible == true)
+        {
+            smileyFace.alpha = 0.25
+        }
+        else if(smileyFace.alpha == 0.25 && smileyVisible == true)
+        {
+            smileyFace.alpha = 0.0
+            smileyVisible = false
+        }
+        else if(smileyFace.alpha == 0.0 && smileyVisible == false)
+        {
+            smileyFace.alpha = 0.25
+        }
+        else if(smileyFace.alpha == 0.25 && smileyVisible == false)
+        {
+            smileyFace.alpha = 0.5
+        }
+        else if(smileyFace.alpha == 0.5 && smileyVisible == false)
+        {
+            smileyFace.alpha = 0.75
+        }
+        else if(smileyFace.alpha == 0.75 && smileyVisible == false)
+        {
+            smileyFace.alpha = 1.0
+            smileyVisible = true
+        }
+    }
 }
 
